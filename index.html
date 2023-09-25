@@ -17,11 +17,12 @@
   <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/menu.css">
   <title>Frontend Mentor | [Blogr]</title>
 </head>
 <body>
   <header>
-    <nav>
+    <nav id="menu">
       <div id="logo">
         <img src="./assets/img/logo.svg" alt="">
       </div>
@@ -29,7 +30,7 @@
         <img src="./assets/img/icon-hamburger.svg" alt="">
       </label>
       <input type="checkbox" id="check">
-      <ul>
+      <ul id="inner-menu">
         <li>Product<span><img src="./assets/img/icon-arrow-dark.svg" alt=""></span>
           <ul>
             <li>Overview</li>
@@ -54,16 +55,16 @@
             <li>LinkedIn</li>
           </ul>
         </li>
-      </ul>
-      <div id="navbtn">
-        <button>Login</button>
-        <button>Singn Up</button>
-      </div>
+        <div id="navbtn">
+          <button class="btn btn-active">Login</button>
+          <button class="btn">Singn Up</button>
+        </div>      
+    </ul>
     </nav>
     <h1>A modern publishing platform</h1>
     <p>Grow your audience and build your online brand</p>
     <div>
-      <button class="btnActive">Start for Free</button>
+      <button class="btn-active">Start for Free</button>
       <button class="btn">Learn More</button>
     </div>
   </header>

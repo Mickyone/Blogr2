@@ -1,40 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&family=Ubuntu:wght@300&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
-
-*{
+/* font-family: 'Overpass', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+* {
     margin: 0;
     padding: 0;
     font-family: 'Overpass', sans-serif;
-    font-family: 'Overpass', sans-serif;
     box-sizing: border-box;
 }
-body{
-    --light-red:var(#ff525d);
-    --very-light-red:var(#ff7a85);
-    --very-dark-blue:var(#1f3f5b);
+
+body {
+    --light-red: #ff525d;
+    --very-light-red: #ff7a85;
+    --very-dark-blue: #1f3f5b;
+    --docwidth: 90%;
 }
-img, input{
+
+img,
+input {
     width: 100%;
 }
-                            /* HEADER nav */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+/*+++++++++++++++++++++++++++++ HEADER ET NAV ++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++ HEADER ET NAV ++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++ HEADER ET NAV ++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++ HEADER ET NAV ++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++ HEADER ET NAV ++++++++++++++++++++++++++++++++++++*/
+/*+++++++++++++++++++++++++++++ HEADER ET NAV ++++++++++++++++++++++++++++++++++++*/
 header {
     color: #fff;
     height: 80vh;
     background-color: #ff525d;
-    background-color: linear-gradient(337deg, 0%, #ff7a85 80%);
-    background-color: -webkit-linear-gradient(3#ff525d 0%, #ff7a85 80%);
-    background-color: -moz-linear-gradient(3#ff525d 0%, #ff7a85 80%);
-    background-image: url(../img/bg-pattern-intro-mobile.svg);
-    background-position: 50% 50%;
-    background-size: 200%;
+    background-color: linear-gradient(337deg, #ff525d 0%, #ff7a85 80%);
+    background-color: -webkit-linear-gradient(337deg, #ff525d 0%, #ff7a85 80%);
+    background-color: -moz-linear-gradient(337deg, #ff525d 0%, #ff7a85 80%);
+    background-image: url(../images/bg-pattern-intro-mobile.svg);
+    background-position: 35% 37%;
+    background-size: 343%;
     background-repeat: no-repeat;
-    border-radius: 10px 10px 10px 61px;
-    -webkit-border-radius: 10px 10px 10px 61px;
-    -moz-border-radius: 10px 10px 10px 61px;
+    border-radius: 0px 0px 0px 82px;
+    -webkit-border-radius: 0px 0px 0px 82px;
+    -moz-border-radius: 0px 0px 0px 82px;
 }
-#logo{
-    width: 15%;
+h1{
+    width: var(--docwidth);/* calc(var(--docwidth)-10%); */
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
 }
-label img{
-    width: 5%;
+header p{
+    width: var(--docwidth);
+    margin: auto;
+    padding: 2rem 0;
+}
+.btn {
+    border-radius: 45px;
+    border: #fff solid .05rem;
+    background-color: #ffffff00;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    padding: .6rem 1rem;
+    margin: .5rem;
+    font-weight: 600;
+}
+.btn:hover {
+    border-radius: 45px;
+    border: #fff solid .05rem;
+    background-color: #ffffff;
+    color: var(--light-red);
+    font-family: 'Ubuntu', sans-serif;
+    padding: .6rem 1rem;
+    margin: .5rem;
+    font-weight: 600;
+}
+.btn-active {
+    border-radius: 45px;
+    border: #fff solid .05rem;
+    background-color: #ffffff;
+    color: var(--light-red);
+    font-family: 'Ubuntu', sans-serif;
+    padding: .6rem 1rem;
+    margin: .5rem;
+    font-weight: 600;
 }

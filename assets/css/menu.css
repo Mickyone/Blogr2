@@ -1,0 +1,15 @@
+#menu{
+    width: var(--docwidth);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 4rem 0; 
+}
+#check{
+    display: none;
+}
+#inner-menu{
+    position: absolute;
+    display: none;
+}
