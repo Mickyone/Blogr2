@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    --light-red:var(#ff525d);
+    --very-light-red:var(#ff7a85);
+    --very-dark-blue:var(#1f3f5b);
+}
+img, input{
+    width: 100%;
+}
+                            /* HEADER nav */
+header {
+    color: #fff;
+    height: 80vh;
+    background-color: #ff525d;
+    background-color: linear-gradient(337deg, 0%, #ff7a85 80%);
+    background-color: -webkit-linear-gradient(3#ff525d 0%, #ff7a85 80%);
+    background-color: -moz-linear-gradient(3#ff525d 0%, #ff7a85 80%);
+    background-image: url(../img/bg-pattern-intro-mobile.svg);
+    background-position: 50% 50%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 61px;
+    -webkit-border-radius: 10px 10px 10px 61px;
+    -moz-border-radius: 10px 10px 10px 61px;
+}
+#logo{
+    width: 15%;
+}
+label img{
+    width: 5%;
+}
