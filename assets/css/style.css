@@ -198,6 +198,7 @@ footer{
     #innerdesign{
         display: flex;
         flex-direction: row-reverse;
+        align-items: center;
     }
     #innerdesign div{
         width: 50%;
@@ -231,5 +232,17 @@ footer{
         content: url(../images/illustration-laptop-desktop.svg);
         width: 170%;
         transform: translate(-60%, -15%);
+    }
+    #innerdesign p{
+        margin: 0 50px;
+    }
+    #innerdesign{
+        margin-bottom: 100px;
+        height: 75vh;
+    }
+    #design h2{
+        margin-top: 50px;
+        width: 70%;
+        margin-left: auto;
     }
 }
