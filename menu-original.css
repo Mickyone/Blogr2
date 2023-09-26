@@ -1,7 +1,6 @@
 #menu ul {
     list-style-type: none;
 }
-
 #menu {
     width: var(--docwidth);
     display: flex;
@@ -10,11 +9,9 @@
     margin: auto;
     padding: 4rem 0;
 }
-
 #check {
     display: none;
 }
-
 #check:checked~#inner-menu {
     display: flex;
     flex-direction: column;
@@ -36,62 +33,18 @@
     box-shadow: 0px 23px 36px -4px rgba(193, 193, 193, 0.75);
     -webkit-box-shadow: 0px 23px 36px -4px rgba(193, 193, 193, 0.75);
     -moz-box-shadow: 0px 23px 36px -4px rgba(193, 193, 193, 0.75);
-    width: 100%;
 }
 #inner-menu ul, #inner-menu li {
-    margin: .8rem;
+    padding: .5rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
-    cursor: pointer;
 }
 #inner-menu ul {
-    overflow: hidden;
     border-radius: 7px;
     background-color: #eeeeee;
-}
-.hide{
-    max-height: 0;
-}
-.show{
-    max-height: 999px;
 }
 #inner-menu span {
     display: inline-block;
     padding: .2rem;
     width: 15px;
-}
-@media screen and (min-width:576px) {
-    #menu label{
-        display: none;
-    }
-    #inner-menu{
-        position: static;
-        display: flex;
-        background-color: #ffffff00;
-        box-shadow: none;
-        color: white;
-        align-items: center;
-    }
-    #inner-menu ul{
-        position: absolute;
-        top: 2rem;
-        left: 0;
-        background-color: #ff7a85;
-    }
-    #navbtn{
-        margin-left: auto;
-    }
-    #menu1, #menu2, #menu3{
-        position: relative;
-    }
-    #menu1 ul{
-        left:-40px;
-    }
-    #menu2 ul{
-        left:-17px;
-    }
-    #menu3 ul{
-        left:-40px;
-    }
-
 }
