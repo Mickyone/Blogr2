@@ -180,10 +180,6 @@ footer{
 #inner-menu-footer{
     margin: 10px 0;
 }
-#inner-menu-footer p{
-    font-size: 105%;
-    font-weight: 600;
-}
 /*+++++++++++++++++++++++++++++ BP576PX ++++++++++++++++++++++++++++++++++++*/
 @media screen and (min-width:576px) {
     body{
@@ -238,11 +234,24 @@ footer{
     }
     #innerdesign{
         margin-bottom: 100px;
-        height: 75vh;
+        height: 80vh;
     }
     #design h2{
         margin-top: 50px;
-        width: 70%;
+        width: 100%;
         margin-left: auto;
+    }
+    #menu-footer{
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+    }
+    #logo-footer{
+        padding: 0;
+        width: 20%;
+        margin: 0;
+    }
+    #menu-footer li{
+        margin: 8px;
     }
 }
